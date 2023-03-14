@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatalogActivity">
+
+
+    <item
+        android:id="@+id/action_darkTheme"
+        android:title="@string/dark_theme"
+        app:iconTint="?attr/textColor"
+        android:icon="@drawable/outline_dark_mode_black_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lightTheme"
+        android:title="@string/light_theme"
+        app:iconTint="?attr/textColor"
+        android:icon="@drawable/outline_light_mode_black_24"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Teal500</item>
+        <item name="colorPrimaryDark">@color/Teal700</item>
+
+        <item name="backgroundColor">@color/white_gbc</item>
+        <item name="textColor">@color/dark_bar</item>
+        <item name="done_iconColor">@color/white</item>
+        <item name="fab_gcColor">@color/Teal500</item>
+        <item name="listSmallTxtColor">@color/dark_line</item>
+        <item name="listMainTxtColor">@color/dark_bar</item>
+        <item name="dividerColor">@color/whiteBg_div</item>
+        <item name="borderColor">@color/blue_line</item>
+
+        <item name="android:itemBackground">@color/white_gbc</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+
+    </style>
+
+
+    <style name="DarkTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/dark_bar</item>
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <item name="backgroundColor">@color/dark_grey</item>
+        <item name="textColor">@color/white_txt_high</item>
+        <item name="borderColor">@color/dark_line</item>
+        <item name="dividerColor">@color/dark_line</item>
+        <item name="android:tint">@color/white_txt_high</item>
+        <item name="done_iconColor">@color/white_txt_high</item>
+        <item name="fab_gcColor">@color/Teal_800</item>
+        <item name="listSmallTxtColor">@color/list_small_txtC_dark</item>
+        <item name="listMainTxtColor">@color/white_txt_low</item>
+
+        <item name="android:itemBackground">@color/dark_line</item>
+        <item name="android:textColorHint">@color/gray_600</item>
+        <item name="android:itemTextAppearance">@style/CustomMenuTextAppearance</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyleDark</item>
+
+    </style>
+
+    <style name="CustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/Teal_line</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AlertDialogStyleDark" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/Teal_line</item>
+        <item name="android:textColorPrimary">@color/white_txt_high</item>
+        <item name="android:windowBackground">@color/dark_line</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="@style/Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/white_txt_high</item>
+    </style>
+
+
+
+
+
+</resources>

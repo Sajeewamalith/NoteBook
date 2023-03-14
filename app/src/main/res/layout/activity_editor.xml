@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+    <EditText
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="?attr/textColor"
+        android:id="@+id/edit_title"
+        android:hint="@string/title"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/edit_contain"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/content"
+        android:gravity="top"
+        android:padding="16dp"
+        android:textColor="?attr/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_below="@+id/edit_title"
+        android:autofillHints=""
+        android:inputType="" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9792667030467157/4526786061">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

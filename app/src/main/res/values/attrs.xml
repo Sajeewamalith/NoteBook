@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ds">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="listMainTxtColor" format="color"/>
+        <attr name="listSmallTxtColor" format="color"/>
+        <attr name="fab_gcColor" format="color"/>
+        <attr name="done_iconColor" format="color"/>
+    </declare-styleable>
+
+</resources>
