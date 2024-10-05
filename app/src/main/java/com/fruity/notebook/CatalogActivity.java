@@ -45,6 +45,7 @@ public class CatalogActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //add dark mode
         sharedPref = new SharedPref(this);
         if (sharedPref.loadNightModeState()) {
             setTheme(R.style.DarkTheme);
@@ -99,8 +100,6 @@ public class CatalogActivity extends AppCompatActivity implements
         mAdView.setAdSize(AdSize.BANNER);
 
         mAdView.setAdUnitId("ca-app-pub-9792667030467157/4526786061");
-
-
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -187,7 +186,6 @@ public class CatalogActivity extends AppCompatActivity implements
         startActivity(i);
         finish();
     }
-
 
 
     @Override
