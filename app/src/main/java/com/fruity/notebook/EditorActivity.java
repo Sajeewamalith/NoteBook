@@ -68,6 +68,7 @@ public class EditorActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //add dark mode
         sharedPref = new SharedPref(this);
         if(sharedPref.loadNightModeState()) {
             setTheme(R.style.DarkTheme);
